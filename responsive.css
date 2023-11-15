@@ -1,0 +1,10 @@
+@media(max-width: 768px) {
+    .navbar{
+        width: 200px;
+        width: 200px;
+    }
+    
+    ul{
+        display: flex;
+    }
+} 

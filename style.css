@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Product Sans', sans-serif;
+}
+header {
+    display: flex;
+}
+
+.contact{
+    background-color: rgb(0, 157, 255);
+    width: fit-content;
+    border-top: 4px solid rgb(0, 157, 255);
+    border-left: 8px solid rgb(0, 157, 255);
+    border-bottom: 4px solid rgb(0, 157, 255);
+    border-right: 8px solid rgb(0, 157, 255);
+    color: aliceblue;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+    width: 150%;
+}
+
+li{
+    margin-left: 25px;
+}
+    
+.logo{
+    letter-spacing: -3px;
+    font-size: 65px;
+}
+
+article{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    margin-top: 30px;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    width: 320px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mic{
+    width: 20px;
+    transform: translateY(4px)
+}
+
+.btn{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.button{
+    background-color: gainsboro;
+    border: 4px solid gainsboro;
+    padding: 0px 5px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    border: 8px solid gainsboro;
+}
+
+.line{
+    background-color: gainsboro;
+    height: 24px;
+    padding: 20px;
+}
+
+.satu{
+    border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+.dua p{
+    margin-right:40px ;
+}
