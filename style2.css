@@ -7,6 +7,10 @@ header {
     display: flex;
 }
 
+.navbar{
+    display: flex;
+}
+
 .contact{
     background-color: rgb(0, 157, 255);
     width: fit-content;
@@ -25,6 +29,11 @@ header {
     margin-right: 20px;
 }
 
+nav{
+    display: flex;
+    margin-left: 120px;
+}
+
 li{
     margin-left: 25px;
 }
@@ -34,7 +43,12 @@ li{
     font-size: 65px;
 }
 
+.logobm{
+    width: 100px;
+}
+
 .searchbar{
+    display: flex;
     background-color: gainsboro;
     padding: 10px 20px;
     border-top-left-radius: 20px;
@@ -42,12 +56,14 @@ li{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 15px;
+    width: 700px;
+    margin-top: 10px;
 }
 
 input{
     border: none;
     background-color: transparent;
-    width: 320px;
+    width: 100%;
 }
 
 input:focus{
@@ -65,6 +81,7 @@ input:focus{
 
 .container article{
     margin-top: 15px;
+    margin: 10px 140px;
 }
 
 .text h6{
@@ -76,6 +93,10 @@ input:focus{
     color: green;
 }
 
+.container2{
+    margin-bottom: 50px;
+}
+
 .header-article{
     width: 100%;
     height: 55px;
@@ -83,10 +104,31 @@ input:focus{
     display: flex;
 }
 
+.aside-article article{
+    margin: 50px 80px;
+}
+
+
+.searchbars{
+    display: flex;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 15px;
+    width: 700px;
+}
+
 .header-article h1{
     letter-spacing: 3px;
     color: white;
     margin: 5px 20px 5px 10px;
+}
+
+.me{
+    width: 400px;
 }
 
 .header-article h3{
@@ -96,11 +138,22 @@ input:focus{
     margin: 10px 10px;
 }
 
+.box{
+    width: 600px;
+    border: 2px solid gainsboro; 
+    display: flex;
+}
+
 .box-card{
     display: flex;
     align-items: end;
     flex-direction: column;
     margin-top: 110px;
+}
+
+.box-card h1{
+    opacity: 0.6;
+    margin: -61px 80px 30px;
 }
 
 .card{
@@ -126,12 +179,22 @@ input:focus{
     display: flex;
     align-items: center;
 }
+.logo-head p{
+    font-size: 20px;
+    margin-right: 90px;
+}
 
 .left{
     margin-left: 16px;
 }
 
 .navyoutube-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.youtube-box{
     display: flex;
 }
 
@@ -143,7 +206,28 @@ input:focus{
     border-left: 15px grey solid;
     border-right: 15px grey solid;
     border-radius: 10px;
+    height: 20px;
+}
 
+.searchbar-three{
+    display: flex;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 15px;
+    width: 700px;
+    margin-top: 10px;
+}
+
+.searchbar-youtube{
+    display: flex;
+}
+
+.i-youtube{
+    margin-left: 26%;
 }
 
 .box-certi{

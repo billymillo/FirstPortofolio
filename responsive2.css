@@ -1,0 +1,145 @@
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .logocenter{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logobm{
+        width: 100px;
+        margin-bottom: -50px;
+    }
+
+    .searchbar{
+        width: 322px;
+        margin-top: 0px;
+    }
+
+    nav{
+        margin-left: 0px;
+    }
+
+    .container article{
+        margin: 10px 20px;
+    }
+
+    .searchbars{
+        width: 160px;
+    }
+
+    .header-article{
+        align-items: center;
+    }
+
+    .aside-article article{
+        margin: 20px 20px;
+    }
+
+    .header-article h1{
+        font-size: 25px
+    }
+
+    .header-article h3{
+        padding: 5px 10px;
+    }
+
+    .me{
+        width:300px;
+    }
+
+    .bola-article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-article{
+        flex-direction: column;
+    }
+
+    .box{
+        margin-top: 10px;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .box-card{
+        align-items: start;
+        margin: 20px;
+    }
+
+    .box-card h1{
+        margin: 10px 0px;
+    }
+
+    .logo-head{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-youtube{
+        margin-left: 60px;
+    }
+
+    .searchbar-youtube{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .i-youtube{
+        margin-left: auto;
+    }
+
+    .searchbar-three{
+        width: 200px;
+        padding: 5px 10px;
+    }
+
+    .youtube{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .navyoutube-box{
+        display: flex;
+    }
+
+    .youtube-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-certi{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .youtubebox{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .video{
+        width: 300px;
+        height: 200px;
+    }
+
+    .box-dream{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box-help{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .top-box h1{
+        margin-left: 15px;
+    }
+
+}

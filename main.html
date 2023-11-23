@@ -6,17 +6,20 @@
     <title>Main</title>
     <link rel="stylesheet" href="style2.css">
     <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" href="responsive2.css">
     <script src="https://kit.fontawesome.com/1aa5003a2c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="navbar" style="display: flex;" >
+    <div class="navbar">
         <header style="margin-top: 10px;">
-            <img src="logo1.png" style="width: 100px;">
+            <div class="logocenter">
+            <img class="logobm" src="logo1.png">
+        </div>
 
-        <div class="searchbar" style="margin-top:10px ;">
+        <div class="searchbar">
             <i class="fa-solid fa-magnifying-glass" style="color: #555658; width: 20px;"></i>
-            <input type="search" style="margin-right: 700px;">
+            <input type="search">
         </div>
 
             <nav>
@@ -32,7 +35,7 @@
         </header>
     </div>
     <div class="navigationbar">
-        <nav style="display: flex; margin-left: 120px;">
+        <nav>
         <div class="bar" style="display: flex;">
             <i class="boxlogo fa-solid fa-magnifying-glass" style="color: #656565;"></i>
             <p>All</p>
@@ -49,15 +52,11 @@
             <i class="boxlogo fa-regular fa-newspaper" style="color: #656565;"></i>
             <p>News</p>
         </div>
-        <div class="bar" style="display: flex;">
-            <i class="boxlogo fa-solid fa-book" style="color: #656565;"></i>
-            <p>Books</p>
-        </div>
         </nav>
     </div>
     <div class="container">
         <hr style="opacity: 0.2;">
-        <article style="margin: 10px 140px">
+        <article>
             <div class="result" style="opacity: 0.6; font-size: 15px; margin-bottom: 20px;">Sekitar 248.000.000 hasil (0,29 detik)</div>
 
         <div class="randomtext"></div>
@@ -89,7 +88,7 @@
     <div class="container2">
         <div class="header-article">
             <h1 id="about">B<span style="color: #ff0000;">i</span>lly</h1>
-            <div class="searchbar" style="margin-top:10px ;">
+            <div class="searchbars">
                 <i class="fa-solid fa-magnifying-glass" style="color: #555658; width: 20px;"></i>
                 <input type="search" style="margin-right: 700px;">
             </div>
@@ -98,31 +97,35 @@
 
 
     <div class="aside-article" style="display: flex;">
-        <article style="margin: 50px 70px">
-            <h1>Penjelasan dan Pengertian Tentang<br> Muhammad Brilliant Hijriadhily Adl</h1>
-            <img src="me.png" style="width: 400px;">
-            <p style="font-size: 13px;">Ilustrasi sejarah olahraga sepak bola. (Bolo.com/M.Brilliant_H.A.)</p>
-            <p style="margin-bottom: 10px;">I'm Progressing to be a Software Developer. My Personality is INFJ.<br>
-                I love doing some exercise and finding something thats new for me.<br>
-                My Favorite Lesson Is Math And Software Class.</p>
+        <article>
+            <h1>Penjelasan dan Pengertian Tentang</h1>
+            <h1>Muhammad Brilliant Hijriadhily Adl</h1>
+            <img class="me" src="me.png">
+            <div class="bola-article">
+                <p style="font-size: 13px; margin-bottom: 10px;">Ilustrasi sejarah olahraga sepak bola. (Bolo.com/M.Brilliant_H.A.)</p>
+                <p>I'm Progressing to be a Software Developer. My Personality is INFJ.</p>
+                <p>I love doing some exercise and finding something thats new for me.</p>
+                <p>My Favorite Lesson Is Math And Software Class.</p>
+            </div>
 
-                <div class="box" style="width: 600px;border: 2px solid gainsboro; display: flex;">
+                <div class="box">
                     <img src="https://tpc.googlesyndication.com/simgad/2097616441510187947?" style="width: 100px;">
-                    <h3>VIDEO: Enea Bastianini <br>Jadi yang Terdepan di MotoGP Malaysia 2023</h3>
+                    <h3>VIDEO: Enea Bastianini </h3>
+                    <h3>Jadi yang Terdepan di MotoGP Malaysia 2023</h3>
                     <i style="opacity: 0.3;">Adverstentment</i>
                 </div>
             <br>
-            <p style="margin-top: 10px;">Muhammad Brilliant Hijriadhily Adl merupakan siswa yang berasal dari SMK WIKRAMA BOGOR.<br>
-               Dia berumur 15 di tahun ke 2023 dan akan terus bertambah Inshaallah<br>
-               tanggal lahirnya 10 Januari 2008 di Kota Tasikmalaya namun sekarang tinggal di Bogor<br>
-               dia sekarang sedang mengembangkan ilmu dan bakat nya di sebuah sekolah<br>
-               SMK Swasta yang mengambil jurusan PPLG(Perkembanganan Perangkat Lunak dan Gim)<br>
-               dia bermimpi untuk bekerja di PT.GOOGLE INDONESIA yang berada di Jakarta dan ingin berkuliah S2 di ITB</p>
+            <p style="margin-top: 10px;">Muhammad Brilliant Hijriadhily Adl merupakan siswa yang berasal dari SMK WIKRAMA BOGOR.</p>
+               <p>Dia berumur 15 di tahun ke 2023 dan akan terus bertambah Inshaallah</p>
+               <p>tanggal lahirnya 10 Januari 2008 di Kota Tasikmalaya namun sekarang tinggal di Bogor</p>
+               <p>dia sekarang sedang mengembangkan ilmu dan bakat nya di sebuah sekolah</p>
+               <p>SMK Swasta yang mengambil jurusan PPLG(Perkembanganan Perangkat Lunak dan Gim)</p>
+               <p>dia bermimpi untuk bekerja di PT.GOOGLE INDONESIA yang berada di Jakarta dan ingin berkuliah S2 di ITB</p>
         </article>
 
         <aside>
         <div class="box-card">
-            <h1 style="opacity: 0.6; margin: -61px 80px 30px;">Adverstentment</h1>
+            <h1>Adverstentment</h1>
         <div class="card 1">
             <h3>SMK WIKRAMA BOGOR</h3>
             <img src="https://akcdn.detik.net.id/visual/2017/09/27/6ae32a90-f9bd-44ce-b971-c7633d1410f4_169.jpg?w=650" style="width: 60%;">
@@ -146,30 +149,34 @@
     <div class="container3">
         <div class="logo-head">
             <div class="logo-youtube" style="display: flex;">
-            <i class="youtube fa-brands fa-youtube" style="color: #ff0000; margin-left: 30px;"></i>
-            <p style="font-size: 20px; margin-right: 90px;">MilloCertificate</p>
+            <i class="youtube-one fa-brands fa-youtube" style="color: #ff0000; margin-left: 30px; font-size: 25px;"></i>
+            <p>MilloCertificate</p>
         </div>
-        <div class="searchbar" style="display: flex;">
-            <i class="youtube fa-solid fa-magnifying-glass" style="color: #656565; margin-top: -5px;"></i>
+        <div class="searchbar-youtube">
+        <div class="searchbar-three" style="display: flex;">
+            <i class="youtube fa-solid fa-magnifying-glass" style="color: #656565;"></i>
             <input type="search" style="width: 600px;">
         </div>
-            <i class="youtube left fa-solid fa-microphone" style="color: #656565; margin-left: 26%;"></i>
+            <i class="youtube i-youtube left fa-solid fa-microphone" style="color: #656565;"></i>
                 <i class="youtube left fa-solid fa-video" style="color: #656565;"></i>
                 <i class="youtube left fa-solid fa-bell" style="color: #656565;"></i>
                 <img src="https://lh3.googleusercontent.com/-BOKw07DPmjE/AAAAAAAAAAI/AAAAAAAAAAA/AML38-sH_tlQZqt9hyVmoavRgueaVasMAQ/photo.jpg?sz=46" 
-                class= "left" style="border-radius: 50%; width: 30px;">
+                class= "left" style="border-radius: 50%; width: 30px; height: 30px;">
+            </div>
         </div>            
         <div class="navyoutube-box">
+            <div class="youtube-box">
                 <p class="navyoutube">Semua</p>
                 <p class="navyoutube">Berita</p>
                 <p class="navyoutube">Game</p>
                 <p class="navyoutube">Live</p>
-                <p class="navyoutube">Mix</p>
+            </div>
+            <div class="youtube-box two">
                 <p class="navyoutube">Acara Memasak</p>
                 <p class="navyoutube">Game Petualangan Aksi</p>
                 <p class="navyoutube">Anime</p>
                 <p class="navyoutube">Acara Komedi Televisi</p>
-                <p class="navyoutube">Dokumentasi Alam</p>
+            </div>
             </div>
             
             <div class="top-box" style="margin: 1% 3%;">
